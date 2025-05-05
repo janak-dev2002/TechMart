@@ -1,14 +1,7 @@
 version: '3.8'
-
 services:
-  php-app:
-    build:
-      context: ./
-      dockerfile: Dockerfile
-    container_name: php-app
+  web:
+    build: .
     ports:
       - "80:80"
-    volumes:
-      - ./php:/var/www/html
-    extra_hosts:
-      - "jdevhomeserver.ddns.net:YOUR_MYSQL_SERVER_IP"
+    env_file: .env
