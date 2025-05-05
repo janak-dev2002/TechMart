@@ -2,10 +2,10 @@ version: '3'
 
 services:
   php-apache:
-    build: .
+    build: ./
     container_name: techmart-php
     ports:
       - "80:80"
     volumes:
-      - .:/var/www/html
+      - ./:/var/www/html
     restart: unless-stopped
