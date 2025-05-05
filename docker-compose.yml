@@ -1,11 +1,14 @@
-version: '3'
+version: '3.8'
 
 services:
-  php-apache:
-    build: ./
-    container_name: techmart-php
+  php-app:
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    container_name: php-app
     ports:
       - "80:80"
     volumes:
-      - ./:/var/www/html
-    restart: unless-stopped
+      - ./php:/var/www/html
+    extra_hosts:
+      - "jdevhomeserver.ddns.net:YOUR_MYSQL_SERVER_IP"
