@@ -54,17 +54,3 @@ techmart/
 └── README.md
 ```
 
-## Default Admin Credentials
-
-- **Username:** admin
-- **Password:** admin123
-
-> Change the default credentials after first login.
-
-## Contribution
-
-Pull requests are welcome. For major changes, open an issue first to discuss what you would like to change.
-
-## License
-
-This project is licensed under the MIT License.
