@@ -1,0 +1,679 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("font/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Honey";
+    src: url("font/HoneyScript-Light.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("font/Roboto-Black.ttf");
+}
+
+
+
+
+
+/* Header 1----------- */
+
+.clr {
+    color: #74AFBE;
+}
+
+
+.clr-bg {
+    background-color: #74AFBE;
+   
+
+}
+
+/* Header 1----------- */
+
+
+
+/* Home -------------------------- */
+
+.search-select {
+
+    border-radius: 25px 0px 0px 25px;
+
+}
+
+.search-form-input {
+
+    border-radius: 50px;
+    position: relative;
+}
+
+.search-btn {
+
+    border-radius: 50px;
+    padding: 5px 40px;
+    right: 0;
+    top: 0;
+    border-color: #74AFBE;
+    color: white;
+    background-color: #74AFBE;
+
+}
+
+.buy-btn {
+
+    border-radius: 50px;
+    padding: 5px 40px;
+    right: 0;
+    top: 0;
+    border-color: #208cd3;
+    color: white;
+    background-color: #208cd3;
+
+}
+
+.search1-btn {
+
+    border-radius: 50px;
+    padding: 5px 40px;
+    right: 0;
+    top: 0;
+    border-color: #208cd3;
+    color: white;
+    background-color: #208cd3;
+
+}
+
+.search2-btn {
+
+    border-radius: 50px;
+    padding: 5px 40px;
+    right: 0;
+    top: 0;
+    border-color: #208cd3;
+
+
+
+}
+
+.search-btn:hover {
+
+    background-color: black;
+}
+
+
+.shop-btn {
+
+    border-radius: 50px;
+    right: 0;
+    top: 0;
+    border-color: #fff;
+    color: #74AFBE;
+    background-color: #fff;
+    height: 60px;
+
+}
+
+.shop-btn:hover {
+
+    background-color: black;
+}
+
+
+.shop1-btn {
+
+    border-radius: 50px;
+    padding: 5px 55px;
+    right: 0;
+    top: 0;
+    border-color: #74AFBE;
+    color: white;
+    background-color: #74AFBE;
+    height: 60px;
+
+}
+
+.shop2-btn {
+
+    border-radius: 50px;
+    padding: 5px 55px;
+    right: 0;
+    top: 0;
+    border-color: #ffffff;
+    color: #74AFBE;
+    background-color: #ffffff;
+    height: 60px;
+
+}
+
+.shop1-btn:hover {
+
+    background-color: black;
+}
+
+.clr-bg-b {
+
+    background-color: #74AFBE;
+}
+
+.space {
+
+    margin: 0px;
+    background-image: url("reso/girl-1990347_640.jpg");
+    background-repeat: no-repeat;
+    width: 650px;
+    height: auto;
+}
+
+.border1 {
+
+    border-radius: 25px 0px 0px 25px;
+}
+
+.border2 {
+
+    border-radius: 0px 25px 25px 0px;
+}
+
+.text_shadow {
+    text-shadow: 1px 1px 1px #4444;
+}
+
+/* Home -------------------------- */
+
+/* Slider */
+
+.slider-im1 {
+
+    height: 90%;
+    width: 90%;
+    object-fit: contain;
+
+}
+
+
+/* Slider */
+
+
+/* Footer */
+
+.a_fo {
+    transition: .6s;
+    color: black;
+
+}
+
+.a_fo:hover {
+    color: #74AFBE;
+    padding-left: 7px;
+}
+
+/* Footer */
+
+
+/* ---------------------- */
+
+.dot {
+
+    height: 180px;
+    width: 180px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transform: scale(1);
+
+}
+
+.dot:hover {
+
+    transform: scale(1.1);
+    transition: 0.7s;
+}
+
+
+.card {
+
+    border-radius: 20px;
+}
+
+
+.im2 {
+
+    height: 200px;
+    object-fit: contain;
+    transition: .6s;
+    cursor: pointer;
+
+}
+
+.im2:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+
+.price {
+    font-size: 25px;
+    padding: 10px 0px;
+}
+
+
+.add-to-cart-btn {
+
+    border: 1px solid #198754;
+    padding: 5px 23px;
+    color: #198754;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .6s;
+}
+
+.add-to-cart-btn:hover {
+
+    background: var(--bs-success);
+    color: #fff;
+}
+
+.controller-img {
+
+    height: auto;
+    width: 100%;
+    /* background-image: url("reso/3.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    object-fit: cover;
+
+
+}
+
+.bar {
+
+    height: 250px;
+    width: 1px;
+}
+
+.last-img {
+
+    height: auto;
+    width: 80%;
+    /* background-image: url("reso/3.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.lastbanner-img {
+
+    height: auto;
+    width: 90%;
+    /* background-image: url("reso/3.png"); */
+    background-repeat: no-repeat;
+    background-size: contain;
+
+
+}
+
+.first_banner-img {
+
+    height: auto;
+    width: 90%;
+    /* background-image: url("reso/3.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: contain;
+
+}
+
+/* index page---------- */
+
+.gen-select {
+
+    border-radius: 50px;
+}
+
+.createbtn {
+
+    border-radius: 50px;
+    background-color: #74AFBE;
+}
+
+.createbtn:hover {
+
+    background-color: rgb(0, 0, 0);
+}
+
+/* .main-body {
+    background-image: url("reso/b1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+.borderbox {
+
+    border-radius: 50px;
+
+}
+
+.btn-togle {
+
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #74AFBE;
+    border-radius: 50px;
+    /* width: 110px; */
+    height: 100%;
+    transition: 0.5s;
+
+}
+
+
+
+.d1 {
+
+    height: 100vh;
+    width: 50vh;
+}
+
+/* index page---------- */
+
+.loading {
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fdfdfdf0;
+}
+
+.cursor-pointer {
+
+    cursor: pointer;
+}
+
+/* product Listning page */
+
+.headbanner {
+
+    /* background-image: url("reso/b1.jpg"); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* width: 100%; */
+    height: 300px;
+    background: #aed7df;
+}
+
+/* product Listning page */
+
+/* product View page */
+
+.img_product {
+
+    width: 600px;
+    height: 500px;
+    background-position: center;
+    object-fit: contain;
+}
+
+.img_sub_product {
+
+
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    /* background-size: contain; */
+    background-position: center;
+}
+
+.diamentions {
+    width: 30%;
+    height: auto;
+    background-position: center;
+
+}
+
+.hovermouse:hover {
+
+    color: #74AFBE;
+    cursor: pointer;
+    /* background-color: #198754; */
+}
+
+
+/* product View page */
+
+/* Cart Page */
+
+/* .bgcard{
+
+    background: rgb(255, 255, 255);
+} */
+
+.cartimg {
+
+  
+    object-fit: contain;
+    height: 90%;
+
+}
+
+.mangeimg {
+
+  
+    object-fit: fill;
+    height: 60%;
+    
+
+}
+
+
+.set_quantity {
+    position: relative;
+}
+
+.set_quantity::after {
+    /* content: "(Note, 1 piece)"; */
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: absolute;
+    bottom: -20px;
+    right: 1.5rem;
+    font-size: 0.8rem;
+}
+
+
+.page-item input {
+    line-height: 22px;
+    padding: 3px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page-link {
+    line-height: 16px;
+    width: 45px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #495057;
+}
+
+
+.page-link:hover {
+    text-decoration: none;
+    color: #495057;
+    outline: none !important;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.remo:hover{
+
+    text-decoration-line: line-through;
+    cursor: pointer;
+    text-decoration-color: #198754;
+}
+
+.watc:hover{
+
+    cursor: pointer;
+
+}
+
+.btnclr{
+
+    border-radius: 50px;
+    color: white;
+    background: #74AFBE;
+    border: none;
+}
+
+.btnclr:hover{
+
+
+    background: #000000;
+}
+
+/* Cart Page */
+
+/* watchlist page */
+
+
+.btnclrwatch{
+
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    /* background: #d81a1a; */
+    border: none;
+}
+
+.btnclrwatch:hover{
+
+
+    background: #74AFBE;
+}
+
+/* watchlist page */
+
+
+/* ------------Admin--------- */
+
+#dash_btn_1:hover{
+
+    cursor: pointer;
+
+}
+
+#dash_btn_2:hover{
+
+    cursor: pointer;
+
+}
+
+#inco{
+
+    transition: 0.6s;
+}
+
+#inco:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+
+}
+
+#orde{
+  
+    transition: 0.6s;
+}
+
+#orde:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+
+}
+
+#prod{
+ 
+    transition: 0.6s;
+}
+
+#prod:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+}
+
+
+#cust{
+  
+    transition: 0.6s;
+}
+
+#cust:hover{
+
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.cursorrr{
+
+    cursor: pointer;
+}
+
+
+.emptyCart {
+    height: 400px;
+    background-image: url("reso/emptycart.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+/* Admin Login=========================== */
+
+.admin_bg {
+
+    background-image: url("reso/l6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Admin Login=========================== */
+
+.subcat-title {
+    color: #000;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+
+.main-body {
+    background-image: url("reso/background-body.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
