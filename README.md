@@ -16,7 +16,6 @@ TechMart is an e-commerce web application designed for buying and selling techno
 - **Backend:** PHP (XAMPP stack)
 - **Database:** MySQL
 - **Frontend:** HTML5, CSS3, JavaScript, Bootstrap
-- **Other:** jQuery, FontAwesome
 
 ## Installation
 
