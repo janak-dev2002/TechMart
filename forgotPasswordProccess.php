@@ -28,12 +28,12 @@ if(isset($_GET["em"])){
             $mail->IsSMTP();
             $mail->Host = 'smtp.gmail.com';
             $mail->SMTPAuth = true;
-            $mail->Username = 'janakasangeethjava@gmail.com';
-            $mail->Password = 'yoxuuztgdlslmyiz';
+            $mail->Username = 'your-email@example.com';
+            $mail->Password = 'password';
             $mail->SMTPSecure = 'ssl';
             $mail->Port = 465;
-            $mail->setFrom('janakasangeethjava@gmail.com', 'Reset Password');
-            $mail->addReplyTo('janakasangeethjava@gmail.com', 'Reset Password');
+            $mail->setFrom('your-email@example.com', 'Reset Password');
+            $mail->addReplyTo('your-email@example.com', 'Reset Password');
             $mail->addAddress($email);
             $mail->isHTML(true);
             $mail->Subject = 'TechMart Forgot Password Verification Code';
